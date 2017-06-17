@@ -12,7 +12,7 @@ namespace KeyboardImeAction.Droid
             base.OnElementChanged(e);
             if (Control != null)
             {
-                Control.ImeOptions = (ImeAction)(ImeFlags.NoExtractUi | ImeFlags.NoFullscreen);
+                Control.ImeOptions = (ImeAction)ImeFlags.NoFullscreen;
             }
         }
     }
